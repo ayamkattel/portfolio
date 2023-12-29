@@ -1,0 +1,228 @@
+*{
+    margin:0px;
+}
+.section1{
+    background-color:#d4edf7 ;
+    height:46.5rem;
+    width: 89.99rem;
+    margin-bottom: 100px;
+}
+.section1>.container1>h1{
+    font-family: cursive;
+    font-weight: 2000;
+    font-size:500%;
+    display: flex;
+    justify-content: center;
+    padding-top: 130px;
+    flex-flow:row wrap;
+}
+.section1>.container1>h2{
+    font-family: sans-serif;
+    font-weight:2000 ;
+    font-size:250%;
+    display: flex;
+    justify-content: center; 
+}
+.section1 .firstimg{
+    height:220px;
+    width:230px;
+    padding-top: 70px;
+    border: 1px;
+    border-radius: 50%;
+    padding-left:600px;
+    
+}
+.section2{
+    height:80rem;
+    width: 89.99rem;
+}
+.profile{
+    border: 1px; 
+    border-radius: 50%;
+    height: 200px;
+    padding:20px;
+    margin:auto;
+    display: block;
+}
+.section2 h2{
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    color:#68c0e3;
+    font-size: 300%;
+    font-weight: 400;
+}
+.section2>.container2>div>p{
+    font-family:sans-serif ;
+    display: flex;
+    justify-content: center;
+    font-size: 150%;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+}
+.section2 .firstdiv{
+    padding-bottom: 200px;
+}
+.seconddiv h2{
+    padding-bottom:60px;
+}
+.section2 h3{
+    font-family: sans-serif;
+    color:#53b7df;
+    font-size: 200%;
+    font-weight: 400;
+}
+.design{
+    height: 300px;
+    float: left;
+    padding-left: 70px;
+}
+.skilldiv .skill{
+    font-family:sans-serif ;
+    font-size: 150%;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+    padding-bottom: 100px;
+}
+.development{
+    height: 250px;
+    float: right;
+}
+.skilldiv2{
+   
+ padding-left: 100px;
+}
+.skilldiv2 img{
+    padding-right: 130px;
+}
+
+.skilldiv2 p{
+    font-family:sans-serif ;
+    font-size: 150%;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+    padding-bottom: 250px;
+}
+.git>h2{
+    font-family: sans-serif;
+    font-weight:2000 ;
+    font-size:300%;
+    display: flex;
+    justify-content: center; 
+}
+.section3 button{
+    padding:10px;
+    color:white;
+    background-color: #228bb5;
+    border: 1px;
+    border-radius:12px;
+    font-size: 130%;
+    transition-duration: 0.4s;
+}
+button:hover{
+background-color: white;
+color:#228bb5
+}
+a{
+    color:white;
+}
+a:hover{
+background-color: white;
+color:#228bb5
+}
+.button{
+    display:flex;
+    justify-content: center;
+    padding-bottom: 150px;
+}
+footer{
+    height:200px;
+    width:89.99rem;
+    background-color: #186381;
+}
+.row{
+    display: flex;
+    justify-content: center;
+}
+.row>div{
+    padding:30px;  
+}
+
+footer p{
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+}
+.row a{
+    color: white;
+}
+@media (max-width:1000px) {
+    .section1>.container1>h1{
+        font-family: cursive;
+        font-weight: 2000;
+        font-size:250%;
+        display: flex;
+        justify-content: center;
+        padding-top: 130px;
+        flex-flow:row wrap;
+    }
+    .section1>.container1>h2{
+        font-family: sans-serif;
+        font-weight:2000 ;
+        font-size:100%;
+        display: flex;
+        justify-content: center;
+     }
+        .section2 h2{
+            font-family: sans-serif;
+            display: flex;
+            justify-content: center;
+            color:#68c0e3;
+            font-size: 150%;
+            font-weight: 400;
+    }
+    .section2>.container2>div>p{
+        font-family:sans-serif ;
+        display: flex;
+        justify-content: center;
+        font-size: 100%;
+        letter-spacing: 0.5px;
+        line-height: 1.5;
+    }
+    .section2 h3{
+        font-family: sans-serif;
+        color:#53b7df;
+        font-size: 150%;
+        font-weight: 400;
+    }
+    .skilldiv .skill{
+        font-family:sans-serif ;
+        font-size: 100%;
+        letter-spacing: 0.5px;
+        line-height: 1.5;
+        padding-bottom: 100px;}
+    .design{
+            height: 150px;
+            float: left;
+            padding-left: 70px;
+        }
+        .development{
+            height: 150px;
+            float: right;
+        }
+        .skilldiv2 p{
+            font-family:sans-serif ;
+            font-size: 100%;
+            letter-spacing: 0.5px;
+            line-height: 1.5;
+            padding-bottom: 250px;
+        }
+        .git>h2{
+            font-family: sans-serif;
+            font-weight:2000 ;
+            font-size:150%;
+            display: flex;
+            justify-content: center; 
+        }
+}
